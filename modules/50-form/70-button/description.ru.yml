@@ -31,22 +31,21 @@ theory: |
   </form>
   ```
 
-  <div class="hexlet-basics-example">
-      <p style="font-size: 18px; font-weight: bold">Форма поиска</p>
-      <form>
-          <label>
-              Введите ваш запрос
-              <input type="text">
-          </label>
-          <select>
-              <option>В каком разделе искать?</option>
-              <option>JS</option>
-              <option>HTML</option>
-              <option>CSS</option>
-          </select>
-          <button>Искать</button>
-      </form>
-  </div>
+<form action="/people">
+    <div>Ваше имя</div>
+    <input type="text" name="name" required="required">
+    <div>Ваш email</div>
+    <input type="email" name="email" required="required">
+    </br>
+    <select multiple>
+        <option>Яндекс</option>
+        <option>Гугл</option>
+        <option>Рамблер</option>
+        <option>Я-ху</option>
+    </select>
+     </br>
+    <button>Отправить</button>
+</form>
 
   Если вы нажмёте на кнопку «Искать», то страница перезагрузится и данные должны будут уйти в обработчик на эту же страницу. Так как обработчика нет, то никаких видимых результатов, кроме перезагрузки страницы, не произойдёт.
 
