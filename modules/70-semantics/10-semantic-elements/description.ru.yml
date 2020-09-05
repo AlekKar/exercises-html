@@ -25,13 +25,19 @@ theory: |
 
   Основными семантическими тегами стали:
 
-  * `article`
-  * `aside`
-  * `footer`
-  * `header`
-  * `main`
-  * `nav`
-  * `section`
+ <article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>`
 
   Большинство элементов интуитивно понятны и их можно сразу использовать в своих документах. Теперь пример выше можно переделать с использованием новых элементов HTML:
 
